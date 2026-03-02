@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4fe27a"></stop>
+      <stop offset="1" stop-color="#1f8d3a"></stop>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.8"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  <!-- lawn -->
+  <path d="M0 112
+           C 80 96 160 128 240 112
+           C 320 96 400 128 480 112
+           C 560 96 640 128 720 112
+           C 760 106 780 114 800 112
+           V160 H0 Z" fill="url(#g)"></path>
+
+  <!-- grass blades -->
+  <g opacity="0.35" stroke="#0f5f26" stroke-width="2" stroke-linecap="round">
+    <path d="M30 160 L40 120"></path><path d="M60 160 L70 125"></path><path d="M110 160 L115 122"></path><path d="M160 160 L155 126"></path>
+    <path d="M210 160 L220 121"></path><path d="M260 160 L268 127"></path><path d="M310 160 L305 122"></path><path d="M360 160 L370 124"></path>
+    <path d="M410 160 L415 121"></path><path d="M460 160 L455 127"></path><path d="M510 160 L520 123"></path><path d="M560 160 L565 120"></path>
+    <path d="M610 160 L605 126"></path><path d="M660 160 L670 121"></path><path d="M720 160 L730 125"></path><path d="M770 160 L765 122"></path>
+  </g>
+
+  <!-- tulips -->
+  <g>
+    <g transform="translate(80 0)">
+      <path d="M0 112 C-4 95 -8 88 -8 78 C-8 65 -2 58 0 56 C2 58 8 65 8 78 C8 88 4 95 0 112 Z" fill="#2fbf5b"></path>
+      <path d="M0 112 C-22 104 -30 94 -22 84 C-14 75 -4 88 0 94 Z" fill="#27a84d"></path>
+      <path d="M0 112 C22 104 30 94 22 84 C14 75 4 88 0 94 Z" fill="#2ac053"></path>
+      <path d="M0 56 C-10 56 -18 46 -16 34 C-12 16 -4 18 0 10 C4 18 12 16 16 34 C18 46 10 56 0 56 Z" fill="#ff4d6d" filter="url(#soft)"></path>
+      <path d="M0 18 C-6 28 -14 28 -12 40 C-9 52 -3 52 0 50 C3 52 9 52 12 40 C14 28 6 28 0 18 Z" fill="#ff7b92" opacity="0.9"></path>
+    </g>
+
+    <g transform="translate(190 0)">
+      <path d="M0 112 C-4 95 -8 88 -8 78 C-8 65 -2 58 0 56 C2 58 8 65 8 78 C8 88 4 95 0 112 Z" fill="#2fbf5b"></path>
+      <path d="M0 112 C-20 106 -28 96 -22 86 C-16 76 -6 86 0 94 Z" fill="#27a84d"></path>
+      <path d="M0 112 C20 106 28 96 22 86 C16 76 6 86 0 94 Z" fill="#2ac053"></path>
+      <path d="M0 56 C-10 56 -18 46 -16 34 C-12 16 -4 18 0 10 C4 18 12 16 16 34 C18 46 10 56 0 56 Z" fill="#ff9f1c" filter="url(#soft)"></path>
+      <path d="M0 18 C-6 28 -14 28 -12 40 C-9 52 -3 52 0 50 C3 52 9 52 12 40 C14 28 6 28 0 18 Z" fill="#ffd166" opacity="0.9"></path>
+    </g>
+
+    <g transform="translate(310 0)">
+      <path d="M0 112 C-4 95 -8 88 -8 78 C-8 65 -2 58 0 56 C2 58 8 65 8 78 C8 88 4 95 0 112 Z" fill="#2fbf5b"></path>
+      <path d="M0 112 C-22 106 -30 96 -22 86 C-14 74 -6 86 0 94 Z" fill="#27a84d"></path>
+      <path d="M0 112 C22 106 30 96 22 86 C14 74 6 86 0 94 Z" fill="#2ac053"></path>
+      <path d="M0 56 C-10 56 -18 46 -16 34 C-12 16 -4 18 0 10 C4 18 12 16 16 34 C18 46 10 56 0 56 Z" fill="#c77dff" filter="url(#soft)"></path>
+      <path d="M0 18 C-6 28 -14 28 -12 40 C-9 52 -3 52 0 50 C3 52 9 52 12 40 C14 28 6 28 0 18 Z" fill="#e0aaff" opacity="0.9"></path>
+    </g>
+
+    <g transform="translate(430 0)">
+      <path d="M0 112 C-4 95 -8 88 -8 78 C-8 65 -2 58 0 56 C2 58 8 65 8 78 C8 88 4 95 0 112 Z" fill="#2fbf5b"></path>
+      <path d="M0 112 C-20 104 -28 94 -22 84 C-16 74 -6 86 0 94 Z" fill="#27a84d"></path>
+      <path d="M0 112 C20 104 28 94 22 84 C16 74 6 86 0 94 Z" fill="#2ac053"></path>
+      <path d="M0 56 C-10 56 -18 46 -16 34 C-12 16 -4 18 0 10 C4 18 12 16 16 34 C18 46 10 56 0 56 Z" fill="#f72585" filter="url(#soft)"></path>
+      <path d="M0 18 C-6 28 -14 28 -12 40 C-9 52 -3 52 0 50 C3 52 9 52 12 40 C14 28 6 28 0 18 Z" fill="#ff5bb4" opacity="0.9"></path>
+    </g>
+
+    <g transform="translate(560 0)">
+      <path d="M0 112 C-4 95 -8 88 -8 78 C-8 65 -2 58 0 56 C2 58 8 65 8 78 C8 88 4 95 0 112 Z" fill="#2fbf5b"></path>
+      <path d="M0 112 C-22 104 -30 94 -22 84 C-14 74 -6 86 0 94 Z" fill="#27a84d"></path>
+      <path d="M0 112 C22 104 30 94 22 84 C14 74 6 86 0 94 Z" fill="#2ac053"></path>
+      <path d="M0 56 C-10 56 -18 46 -16 34 C-12 16 -4 18 0 10 C4 18 12 16 16 34 C18 46 10 56 0 56 Z" fill="#ff5d8f" filter="url(#soft)"></path>
+      <path d="M0 18 C-6 28 -14 28 -12 40 C-9 52 -3 52 0 50 C3 52 9 52 12 40 C14 28 6 28 0 18 Z" fill="#ff9bb5" opacity="0.9"></path>
+    </g>
+
+    <g transform="translate(690 0)">
+      <path d="M0 112 C-4 95 -8 88 -8 78 C-8 65 -2 58 0 56 C2 58 8 65 8 78 C8 88 4 95 0 112 Z" fill="#2fbf5b"></path>
+      <path d="M0 112 C-18 106 -26 96 -20 86 C-14 76 -6 86 0 94 Z" fill="#27a84d"></path>
+      <path d="M0 112 C18 106 26 96 20 86 C14 76 6 86 0 94 Z" fill="#2ac053"></path>
+      <path d="M0 56 C-10 56 -18 46 -16 34 C-12 16 -4 18 0 10 C4 18 12 16 16 34 C18 46 10 56 0 56 Z" fill="#ffd60a" filter="url(#soft)"></path>
+      <path d="M0 18 C-6 28 -14 28 -12 40 C-9 52 -3 52 0 50 C3 52 9 52 12 40 C14 28 6 28 0 18 Z" fill="#fff3a0" opacity="0.9"></path>
+    </g>
+  </g>
+
+  <!-- tiny sparkles -->
+  <g opacity="0.55" fill="#ffd6e7">
+    <circle cx="120" cy="18" r="2"></circle><circle cx="260" cy="28" r="1.8"></circle>
+    <circle cx="500" cy="20" r="2"></circle><circle cx="640" cy="30" r="1.8"></circle>
+  </g>
+</svg>
